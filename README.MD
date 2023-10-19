@@ -1,5 +1,7 @@
 # Blog Application README
 
+![alt text](https://github.com/omarbaig007212/SpringBoot-BlogApplication/blob/main/BlogApplication.jpg)
+
 This README provides an overview of a Blog Application built using Spring Boot that employs JSON Web Token (JWT) for authentication. The application allows users to create, manage, and interact with blog posts, comments, and categories. Below, you'll find details on the project structure, how to set up and run the application, and its API endpoints.
 
 ## Table of Contents
