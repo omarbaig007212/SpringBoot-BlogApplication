@@ -1,4 +1,6 @@
-# Blog Application README
+# Blog Application
+
+Swagger Documentation: URL: http://localhost:9090/swagger-ui/index.html
 
 ![alt text](https://github.com/omarbaig007212/SpringBoot-BlogApplication/blob/main/BlogApplication.jpg)
 
