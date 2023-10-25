@@ -115,6 +115,33 @@ These entities have relationships as follows:
 
 Authentication in this application is based on JSON Web Tokens (JWT). When a user successfully logs in, a JWT token is provided, which must be included in the headers of protected endpoints. The application ensures that only authenticated users can create, update, or delete posts and comments.
 
+
+## Images of swagger-ui
+Token: Bearer <Token>
+
+registerUser: 
+
+![img23](https://github.com/omarbaig007212/SpringBoot-BlogApplication/assets/58821151/0df390f0-894b-4807-8540-8cd0df799907)
+![img24](https://github.com/omarbaig007212/SpringBoot-BlogApplication/assets/58821151/b1de393c-f041-42d3-899b-3a79afe4b28f)
+
+Login User: 
+
+![img27](https://github.com/omarbaig007212/SpringBoot-BlogApplication/assets/58821151/5a202ee0-2d0d-4f7f-bb1f-d968dc1132a2)
+![img28](https://github.com/omarbaig007212/SpringBoot-BlogApplication/assets/58821151/7ea7a45f-37d3-4e87-9a14-a2c118cd4d1f)
+Register a token to authorize:
+
+![img29](https://github.com/omarbaig007212/SpringBoot-BlogApplication/assets/58821151/2a546fef-f2ac-4c05-acd4-6b2ea7914af6)
+Category (POST) (Create):
+
+![img30](https://github.com/omarbaig007212/SpringBoot-BlogApplication/assets/58821151/7d6cf4c4-349e-43a9-b676-6f3075197a8a)
+![img31](https://github.com/omarbaig007212/SpringBoot-BlogApplication/assets/58821151/937cc5f3-1b8c-4a46-a95e-8f4e20981e12)
+
+Create a post using category_id and post_id :
+
+![img32](https://github.com/omarbaig007212/SpringBoot-BlogApplication/assets/58821151/31a83a14-ec48-4596-95b5-e4a5b115834f)
+![img33](https://github.com/omarbaig007212/SpringBoot-BlogApplication/assets/58821151/a2d548cc-1f9f-4d76-af1f-9ca4698a2e85)
+
+
 Please ensure you include the JWT token in the `Authorization` header of your HTTP requests to access protected resources.
 
 This README provides an overview of the Blog Application, including its setup, endpoints, entities, and authentication mechanism. You can now use this information to explore and interact with the application.
