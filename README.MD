@@ -12,16 +12,6 @@ Swagger Documentation: URL: http://localhost:9090/swagger-ui/index.html
 
 This README provides an overview of a Blog Application built using Spring Boot that employs JSON Web Token (JWT) for authentication. The application allows users to create, manage, and interact with blog posts, comments, and categories. Below, you'll find details on the project structure, how to set up and run the application, and its API endpoints.
 
-## Table of Contents
-
-- [Project Structure](#project-structure)
-- [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Configuration](#configuration)
-- [API Endpoints](#api-endpoints)
-- [Entities](#entities)
-- [Authentication](#authentication)
-
 ## Project Structure
 
 The project structure is organized as follows:
