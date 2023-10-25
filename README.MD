@@ -1,5 +1,11 @@
 # Blog Application
 
+# To Deploy on AWS / ElasticBeanStalk
+
+1. Change the port to 5000.
+2. Change the "spring.profiles.active=dev" in application.properties to prod
+3. In beanstalk connect to the same database.
+
 Swagger Documentation: URL: http://localhost:9090/swagger-ui/index.html
 
 ![BlogApplication](https://github.com/omarbaig007212/SpringBoot-BlogApplication/assets/58821151/3fd2366e-7401-42b6-8a28-acf8bbc770ad)
