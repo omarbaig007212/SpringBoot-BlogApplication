@@ -1,7 +1,10 @@
 # Blog Application
 
 # To Deploy on AWS / ElasticBeanStalk
+  
+example: mysql://blog-app.celtwlzelmi4.us-east-1.rds.amazonaws.com (Endpoint)
 
+0. In application-prod.properties set ->  spring.datasource.url=jdbc:<Endpoint>/<database-name>
 1. Change the port to 5000.
 2. Change the "spring.profiles.active=dev" in application.properties to prod
 3. In beanstalk connect to the same database.
